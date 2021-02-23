@@ -1,7 +1,5 @@
 import nibabel as nib
-
 from scipy import ndimage
-
 
 def read_nifti_file(filepath):
 	"""Read and load volume"""
